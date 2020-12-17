@@ -10,7 +10,7 @@ public class Calculator {
     first = scanner.nextInt();
     second = scanner.nextInt();
 
-    System.out.print("Enter an option (1.Addition 2.Subraction 3.Multiplication 4.Division 5.Modulo Division): ");
+    System.out.print("Enter an option (1.Addition 2.Subtraction 3.Multiplication 4.Division 5.Modulo Division): ");
     option = scanner.nextInt();
 
     switch (option) {
@@ -21,7 +21,7 @@ public class Calculator {
         break;
 
       case 2:
-        System.out.println("SUBRACTION");
+        System.out.println("SUBTRACTION");
         result = first - second;
         System.out.println(first+ " - " +second+ " = " +result);
         break;
